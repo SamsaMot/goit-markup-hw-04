@@ -443,8 +443,7 @@ a {
     color: var(--light);
     padding: 100px 0;
 }
-.footer .container {
-}
+
 .footer-inner {
     display: flex;
     align-items: baseline;
