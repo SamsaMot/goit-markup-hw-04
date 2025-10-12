@@ -236,6 +236,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center; 
 }
+.soc-logo{
+  display: flex;
+  justify-content: center;
+}
 .soc-logo svg{
   width: 10px;
 height: 10px;
