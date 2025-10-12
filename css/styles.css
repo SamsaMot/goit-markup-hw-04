@@ -238,7 +238,7 @@ a {
 }
 .soc-logo{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .soc-logo svg{
   width: 10px;
