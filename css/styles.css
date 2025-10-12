@@ -242,11 +242,6 @@ a {
   display: flex;
   justify-content: flex-start;
 }
-.soc-logo svg{
-  width: 10px;
-height: 10px;
-
-}
 .third-subtitle {
   font-weight: 500;
   font-size: 20px;
