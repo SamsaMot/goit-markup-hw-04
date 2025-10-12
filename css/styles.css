@@ -444,19 +444,23 @@ a {
 }
 
 .foot-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  display: inline-block;
-  margin-bottom: 16px;
+ font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
 }
 
 .foot-span {
-  color: #f4f4fd;
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--cloud);
 }
 .footer .container{
     display: flex;
@@ -476,4 +480,20 @@ a {
   font-size: 16px;
   max-width: 264px;
   margin: 0;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Social title (now below icons in Figma) */
+.social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light);
+    margin: 16px 0 0 0;
+    text-align: center;
 }
