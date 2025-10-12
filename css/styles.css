@@ -439,9 +439,9 @@ a {
 
 /* FOOTER */
 .footer {
-  background-color: #2e2f42;
-  color: var(--light);
-  padding: 100px 0;
+    background-color: #2e2f42;
+    color: var(--light);
+    padding: 100px 0;
 }
 
 .footer .container {
@@ -508,24 +508,24 @@ a {
 }
 
 .foot-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--accent);
-  display: inline-block;
-  margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .foot-span {
-  color: #f4f4fd;
+    color: #f4f4fd;
 }
 
 .foot-par {
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  max-width: 264px;
-  margin: 0;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    max-width: 264px;
+    margin: 0;
 }
