@@ -150,6 +150,6 @@ body{font-family:'Roboto',sans-serif;margin:0;color:var(--text);line-height:1.5}
 }
 .forth-item:hover .app-desc{transform:translateY(0%)}
 
-.footer-inner{
+.footer .container{
   display: flex;
 }
