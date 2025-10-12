@@ -142,7 +142,7 @@ body{font-family:'Roboto',sans-serif;margin:0;color:var(--text);line-height:1.5}
   font-size:16px;
   line-height:1.5;
   letter-spacing:0.02em;
-  color:var(--light);
+  color:#f4f4fd;
   background:var(--accent);
   height:100%;width:100%;
   transform:translateY(100%);
