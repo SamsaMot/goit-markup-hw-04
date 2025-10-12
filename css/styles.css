@@ -22,15 +22,18 @@ body{font-family:'Roboto',sans-serif;margin:0;color:var(--text);line-height:1.5}
 
 /* nav base */
 .nav-list{display:flex;gap:40px;align-items:center;margin:0;padding:0;list-style:none}
-.nav-list a{display:block;padding:24px 0;font-weight:500;font-size:16px;line-height:1.5;letter-spacing:0.02em;color:#2e2f42}
+.nav-link{display:block;padding:24px 0;font-weight:500;font-size:16px;line-height:1.5;letter-spacing:0.02em;color:#2e2f42;transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)}
 
-/* first menu item (>=3 lowercase latin chars) */
-.studio{
+/* first and second menu items (class names >=3 lowercase latin chars) */
+.nav-first, .nav-second { position: relative; }
+
+/* exact required styles for first menu item */
+.nav-first{
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio::after{
+.nav-first::after{
   content: '';
   width: 100%;
   position: absolute;
@@ -42,10 +45,7 @@ body{font-family:'Roboto',sans-serif;margin:0;color:var(--text);line-height:1.5}
   pointer-events: none;
 }
 
-/* second menu item class (>=3 lowercase latin chars) */
-.portfolio{ position: relative; }
-
-/* contact links: same class on both items + transition */
+/* contact links: same class on both items + transition as required */
 .contact-list{display:flex;gap:24px;margin:0;padding:0;list-style:none}
 .contact-link{
   color:var(--text);
