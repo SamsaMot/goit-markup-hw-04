@@ -237,7 +237,8 @@ a {
     letter-spacing: 0.02em;
     text-align: center; 
 }
-.soc-logo{
+.soc{
+  flex-direction: row;
   display: flex;
   justify-content: flex-start;
 }
