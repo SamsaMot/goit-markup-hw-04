@@ -155,8 +155,15 @@ body{font-family:'Roboto',sans-serif;margin:0;color:var(--text);line-height:1.5}
   align-items: baseline;
   }
   .footer-left{
-    margin-right: 120px
+    margin-right: 120px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
   }
-  .footer-left p{
-    font-weight: 500
+  .footer-right .social-title{
+    font-weight: 500;
+    
+  }
+  .footer-icon{
+    fill:#f4f4fd;
   }
