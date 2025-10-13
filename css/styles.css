@@ -154,10 +154,12 @@ body{font-family:'Roboto',sans-serif;margin:0;color:var(--text);line-height:1.5}
   align-items: baseline;
   }
   .footer-left{
-     margin-right: 120px;
-      letter-spacing: 0.02em;
+       letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+  }
+  .foot-par{
+    margin-right: 120px;
   }
   .footer-right .social-title{
     font-weight: 500;
