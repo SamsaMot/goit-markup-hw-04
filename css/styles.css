@@ -155,5 +155,8 @@ body{font-family:'Roboto',sans-serif;margin:0;color:var(--text);line-height:1.5}
   align-items: baseline;
   }
   .footer-left{
-    
+    margin-right: 120px
+  }
+  .footer-left p{
+    font-weight: 500
   }
