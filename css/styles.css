@@ -129,6 +129,13 @@ a {
   text-align: center;
   padding:188px 0 188px;
 }
+.first .container{
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office-1.jpg); 
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .first-title {
   max-width: 496px;
@@ -155,6 +162,7 @@ a {
   border: none;
   border-radius: 4px;
   display: block;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-btn:hover,
