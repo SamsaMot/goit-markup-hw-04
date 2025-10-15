@@ -207,6 +207,9 @@ a {
 .second-text {
   letter-spacing: 0.02em;
 }
+.second .container{
+  display: flex;
+}
 .second-subtext{
   font-family: var(--font-family);
 font-weight: 400;
