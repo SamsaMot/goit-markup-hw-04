@@ -207,7 +207,8 @@ a {
 .second-text {
   letter-spacing: 0.02em;
 }
-.icon-box{display:flex;
+.icon-box{
+  display:flex;
 align-items:center;
 justify-content:center;
 height:112px;
