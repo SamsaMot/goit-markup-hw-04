@@ -343,6 +343,9 @@ background-color: #404bbf
     transform: translateY(0%);
 
 }
+.forth-description{
+  transform: translateY(100%);
+}
 
 .forth-title {
   text-align: center;
