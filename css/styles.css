@@ -207,7 +207,7 @@ a {
 .second-text {
   letter-spacing: 0.02em;
 }
-.second .container{
+.second {
   display: flex;
 }
 .second-subtext{
