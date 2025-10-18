@@ -163,10 +163,12 @@ a {
   border: none;
   border-radius: 4px;
   content: "";
-  background-color: #4D5AE5;;
+  background-color: #4D5AE5;
   transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* У кнопки в класі заданий стиль transition зі значенням 
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+для плавної зміни кольору фону елемента*/
 .first-btn:hover,
 .first-btn:focus {
   background-color: #404bbf;
@@ -342,6 +344,8 @@ background-color: #404bbf
   transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
 }
+/* Для параграфа, у класі, заданий стиль transform: translateY(100%); 
+що змінює позицію елемента вздовж осі Y*/
 .forth-item:hover .app-desc{
     transform: translateY(0%);
 
